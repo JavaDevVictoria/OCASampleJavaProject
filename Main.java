@@ -70,5 +70,8 @@ public class Main {
 			Period period = Period.between(employee.getDob(), now);
 			System.out.println("Age of " + employee.getName() + ": " + period.getYears() + " years");
 		}	
+		
+		// Print employee count using static variable
+		System.out.println("Employee count: " + Employee.count);
 	}
 }
